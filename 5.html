@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lodash Example</title>
+</head>
+<body>
+  <script src="z5.js"></script>
+  <script>
+    // Импортируем наш модуль
+    const myModule = require('./z5.js');
+
+    // Создаем массив
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    // Фильтруем массив с помощью нашей функции
+    const filteredNumbers = myModule.myModuleFunction(numbers, 5);
+
+    // Выводим результат
+    console.log(filteredNumbers); // Выведет [6, 7, 8, 9, 10]
+  </script>
+</body>
+</html>
