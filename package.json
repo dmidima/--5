@@ -1,6 +1,6 @@
 {
   "name": "my-lodash-module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "z5.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/my-lodash-module.git"
+    "url": "git+https://github.com/dmidima/--5.git"
   },
   "keywords": [
     "lodash",
