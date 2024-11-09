@@ -1,12 +1,12 @@
 {
   "name": "my-lodash-module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "z5.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "dima",
-  "license": "IST",
+  "license": "MIT",
   "description": "A simple npm module using lodash for array filtering",
   
   "repository": {
@@ -19,8 +19,8 @@
     "filter",
     "module"
   ],
-  
-  
+
+
   "dependencies": {
     "lodash": "^4.17.21",
     "my-lodash-module": "^1.0.0"
