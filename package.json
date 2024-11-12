@@ -1,6 +1,6 @@
 {
   "name": "my-lodash-module",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "main": "z5.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,7 +22,6 @@
 
 
   "dependencies": {
-    "lodash": "^4.17.21",
-    "my-lodash-module": "^1.0.0"
+    "lodash": "^4.17.21"
   }
 }

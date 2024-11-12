@@ -6,18 +6,23 @@ This is a simple npm module that uses lodash to filter arrays.
 
 To install the module, run the following command:
 
+
+```js
 npm install my-lodash-module
 
+```
 
 ## Usage
 javascript
+
+```js
 const myModule = require('my-lodash-module');
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const filteredNumbers = myModule.filterArray(numbers, 5);
 
 console.log(filteredNumbers); // Output: [6, 7, 8, 9, 10]
-
+```
 
 ## API
 
@@ -31,9 +36,12 @@ This function filters an array of numbers and returns a new array containing onl
 *Example:*
 
 javascript
+
+```js
 const myModule = require('my-lodash-module');
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const filteredNumbers = myModule.filterArray(numbers, 5);
 
 console.log(filteredNumbers); // Output: [6, 7, 8, 9, 10]
+```
